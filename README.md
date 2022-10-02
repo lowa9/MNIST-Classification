@@ -29,9 +29,8 @@ __ init __()里完成以下步骤的封装:
 
 * 首先通过卷积层conv1,该层卷积核为5 * 5,padding为0,步长为1,通过后图像通道数由1变成10,高宽为24 * 24(若n * n为数据原矩阵规模,p为padding大小,f为卷积核大小,s为步长,则输出的矩阵高宽满足下面的式子:)
 
-  ![image-20220929235233723](Readme.assets/image-20220929235233723.png)
+  ![image](https://user-images.githubusercontent.com/92147115/193443964-6725dd2e-fe5e-49a3-9430-4bfd9e3866ae.png)
 
-  
 
 * 经过ReLU后通过一层卷积核为2 * 2的Maxpooling,channels不变,高宽变为一半,(batch,10,12,12)
 
